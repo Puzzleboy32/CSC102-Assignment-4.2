@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="audio.js"></script>
+</head>
+<body>
+    <audio controls>
+        
+        <source src="Basketball Buzzer-SoundBible.com-1863250611.mp3" type= "audio/mpeg" class="audio"> </source> 
+        </audio>
+        <button id = "startButton" onclick = "startSound();" class="button"> Play sound </button>
+        <button id = "stopButton" onclick = "stopSound();"class="button"> Stop sound </button>
+        <img src="basketball.png" class="basketball" >
+        <img src="shooting.jpg" class="shooting">
+        <img src="hoop.png" class="hoop" >
+        <style>
+            .button{
+                font-size: larger;
+        
+                transform: translateY(150px) translateX(450px);
+                
+            }
+            body{
+                background-color: blue;
+            }
+            .basketball{
+                width: 100px;
+                height: 100px;
+                transform: translateY(400px) translateX(400px);
+            }
+            .shooting{
+                width: 250px;
+                height: 200px;
+                transform: translateY(650px);
+            }
+            .hoop{
+                width: 250px;
+                height: 200px;
+                transform: translateY(700px) translateX(500px);
+            }
+
+        </style>
+</body>
+</html>
